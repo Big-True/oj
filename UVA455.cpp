@@ -16,6 +16,9 @@ int main(){
                 }
                 if(same){
                     std::cout<<i<<std::endl;
+                    if(j!=times-1){
+                        std::cout<<std::endl;
+                    }
                     break;
                 }
             }
